@@ -13,7 +13,7 @@ The `magnify_default_nodes` and `magnify_flowers_nodes` mods contain information
 ### Screenshots
 
 <!-- Using inline HTML for simpler image scaling -->
-<img src = ".screenshots/magnify_modpack_standard_viewer.png" alt = "Species viewer" width = "384" height = "200"> <img src = ".screenshots/magnify_modpack_technical_viewer.png" alt = "Technical viewer" width = "384" height = "200"> <img src = ".screenshots/magnify_modpack_technical_locator.png" alt = "Species locator" width = "384" height = "200">
+<img src = ".screenshots/magnify_modpack_standard_view.png" alt = "Species viewer" width = "384" height = "200"> <img src = ".screenshots/magnify_modpack_technical_view.png" alt = "Technical viewer" width = "384" height = "200"> <img src = ".screenshots/magnify_modpack_compendium.png" alt = "Plant compendium" width = "384" height = "200"> <img src = ".screenshots/magnify_modpack_locator.png" alt = "Species locator" width = "384" height = "200">
 
 ## Registering plant species using the `magnify` API
 
@@ -22,7 +22,7 @@ The `magnify_default_nodes` and `magnify_flowers_nodes` mods contain information
 If the nodes for your species have already been created or are already part of a mod, you can skip this step and move to [creating a definition table](#creating-a-definition-table).  
 If you are creating an entirely new species or are new to modding, you'll want to start by creating **nodes** for that species and adding them to a mod. See [the Minetest modding book][mod_book] and [the Minetest API documentation][api_docs] for more information on how to create a mod and how to create nodes.
 
-Once you have your nodes created, take note of their technical names: you'll need them later. Then, you can begin registering your species with the `magnify` API!
+Once you have your nodes created, take note of their technical names (`modname:nodename`): you'll need them later. Then, you can begin registering your species with the `magnify` API!
 
 ### Configuring your mod
 
