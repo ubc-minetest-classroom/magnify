@@ -62,9 +62,7 @@ Registers a species in the `magnify` species database
   - The following properties will automatically be added to the species definiton table when `magnify.register_species` is called during mod load-in:
 
     ```lua
-    {
         origin = ""           -- Name of mod which registered the plant species
-    }
     ```
 
 ### `magnify.register_plant(def_table, nodes)  -->  string`
@@ -111,7 +109,7 @@ Returns the species definition table of the species indexed at `ref` in the `mag
 
 ### `magnify.get_registered_species_tree()  -->  table`
 
-Returns a tree of all the species registered in the `magnify` species database, indexed by family name
+Returns a tree of all the species registered in the `magnify` species database, indexed by family name  
 Each family points to a table indexed by genus name, each genus points to a table indexed by species name, each species points to its associated reference key
 
 - Returns:
@@ -139,7 +137,7 @@ Gets data from a player's `magnify` metadata
 
 ### `magnify.save_mdata(player, data)  -->  boolean`
 
-Saves data to a player's `magnify` metadata
+Saves data to a player's `magnify` metadata  
 Returns `true` if successful, `false` otherwise
 
 - Parameters:
