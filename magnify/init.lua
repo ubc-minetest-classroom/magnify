@@ -1532,7 +1532,7 @@ if minetest.get_modpath("sfinv") ~= nil then
                 reload = true
             end
 
-            if formname == "magnify:view" or formname == "magnify:tach_view" then
+            if formname == "magnify:view" or formname == "magnify:tech_view" then
                 if fields.quit or fields.back then
                     context:clear()
                 end
