@@ -2,7 +2,7 @@
 
 Adds a magnifying glass tool and inventory plant compenium for viewing information about various plant species in the MineTest world
 
-*Version: v0.10.1*  
+*Version: v0.10.2*  
 *Dependencies: [`sfinv`](https://github.com/rubenwardy/sfinv)*
 
 ## API
