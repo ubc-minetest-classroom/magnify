@@ -628,7 +628,7 @@ end
 --- @return table
 local function read_obj_textures(target_obj)
     local textures = {}
-    local model_iter = io.lines(target_obj, "r")
+    local model_iter = io.lines(target_obj)
     local line = model_iter()
     while line do 
         local match = string.match(line, "^g (.*)")
