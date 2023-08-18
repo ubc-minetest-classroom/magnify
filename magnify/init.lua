@@ -1236,7 +1236,7 @@ if minetest.get_modpath("sfinv") ~= nil then
         get = function(self, player, context)
             if check_perm(player) then
                 return table.concat({
-                    default_get(self, player, context),
+                    default_get(self, player, context) or "",
                     "image_button[7,0;1,1;magnify_compendium_icon_square.png;magnify_plant_compendium;;false;false]",
                     "tooltip[magnify_plant_compendium;Plant Compendium]"
                 })
